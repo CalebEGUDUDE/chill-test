@@ -4,6 +4,7 @@
     <head>
         <title>Chillest Website</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div id="main">
@@ -17,50 +18,52 @@
                     </div>
                 </li>
                 <br>
-                <li><button type="button" id="active">All</button></li>
-                <li><button type="button" id="Catagory-1">Catagory-1</button></li>
-                <li><button type="button" id="Catagory-2">Catagory 2</button></li>
-                <li><button type="button" id="Catagory-3">Catagory 3</button></li>
+                <hr>
+                <br>
+                <div id="catagories">
+                    <li><button type="button" class="games side active" id="active">Games</button></li>
+                    <li><button type="button" class="settings side">Settings</button></li>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div id="catagories-main"></div> 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             </ul>
 
             <!--Right side-->
             <div id="main-right">
                 <h1>Chillest Website</h1>
-                <p id="splash">homer let the barts out</p>
+                <p id="splash"></p>
+                <div id="game-load"></div>
 
                 <hr>
 
                 <!--Games-->
                 <div id="games">
-                    <div id="game-container">
-                        <p id="game-name">game1</p>
-                        <img id="game-icon" src="/placeholder.png" alt="game1" >
-                    </div>
-                    <div id="game-container">
-                        <p id="game-name">game2</p>
-                        <img id="game-icon" src="/placeholder.png" alt="game2" >
-                    </div>
-                    <div id="game-container">
-                        <p id="game-name">game3</p>
-                        <img id="game-icon" src="/placeholder.png" alt="game3" >
-                    </div>
-                    <div id="game-container">
-                        <p id="game-name">game4</p>
-                        <img id="game-icon" src="/placeholder.png" alt="game4" >
-                    </div>
-                    <div id="game-container">
-                        <p id="game-name">game5</p>
-                        <img id="game-icon" src="/placeholder.png" alt="game5" >
-                    </div>
                 </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <section id="settings-panel" hidden>
+                    <p>wip!</p>
+                </section>
             </div>
         </div>
         <footer>
             <p>
                 <a target="_blank" href="https://forms.gle/T8N5zeZVXG5c8Kh86">Suggest Games</a>
-                -
+                 - 
                 <a target="_blank" href="https://forms.gle/Uc169jWRSrVALosg8">Suggest</a>
-                -
+                 - 
                 <a target="_blank" href="https://github.com/CalebEGUDUDE/chill-test">Github</a>
             </p>
         </footer>
